@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srujal Audarya's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("uQxoxLnNXcUliwZhw"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Srujal Audarya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="assets/images/profile.png" alt="Profile Picture" class="profile-img">
+            <p>Enthusiastic engineering Diploma with basic knowledge in coding and design. Proficient in C, C++, Java, HTML, SQL, Python, and Android. Ability to learn new software and technologies quickly. Capable of working in teams by providing valuable support.</p>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: C, C++, Java, HTML, SQL, Python, Android</li>
+                <li>Microsoft Excel, Word, PowerPoint</li>
+                <li>Communication Skills</li>
+                <li>Team Meetings</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+    </section>
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>2020 – 2021: SSC, Z.P. High School Pandharkawada, Percentage: 86.60%</li>
+                <li>2021 – 2024: Diploma in Computer Engineering, Government Polytechnic, Arvi</li>
+                <li>1st Year Aggregate: 81.70%</li>
+                <li>2nd Year Aggregate: 77.8%</li>
+                <li>3rd Year Aggregate: Pursuing</li>
+            </ul>
+        </div>
+    </section>
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2>Certificates</h2>
+            <ul>
+                <li>MS-CIT [MKCL]</li>
+                <li>C Programming</li>
+                <li>HTML Programming</li>
+                <li>Android Development</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div id="project-list" class="project-list">
+                <!-- Project entries will be added here dynamically -->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Srujal Audarya. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
